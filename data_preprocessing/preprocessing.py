@@ -49,9 +49,7 @@ class Preprocessor:
                         Output: Returns two separate Dataframes, one containing features and the other containing Labels .
                         On Failure: Raise Exception
 
-                        Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
+
 
                 """
         self.logger_object.log(self.file_object, 'Entered the separate_label_feature method of the Preprocessor class')
@@ -150,9 +148,7 @@ class Preprocessor:
                                                Output: A Dataframe which has all the categorical values encoded.
                                                On Failure: Raise Exception
 
-                                               Written By: iNeuron Intelligence
-                                               Version: 1.0
-                                               Revisions: None
+
                             """
 
         for column in data.columns:

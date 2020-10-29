@@ -4,9 +4,7 @@ class Data_Getter_Pred:
     """
     This class shall  be used for obtaining the data from the source for prediction.
 
-    Written By: iNeuron Intelligence
-    Version: 1.0
-    Revisions: None
+
 
     """
     def __init__(self, file_object, logger_object):
@@ -21,9 +19,7 @@ class Data_Getter_Pred:
         Output: A pandas DataFrame.
         On Failure: Raise Exception
 
-         Written By: iNeuron Intelligence
-        Version: 1.0
-        Revisions: None
+
 
         """
         self.logger_object.log(self.file_object,'Entered the get_data method of the Data_Getter class')

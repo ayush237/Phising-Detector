@@ -6,9 +6,7 @@ from sklearn.metrics  import roc_auc_score,accuracy_score
 class Model_Finder:
     """
                 This class shall  be used to find the model with best accuracy and AUC score.
-                Written By: iNeuron Intelligence
-                Version: 1.0
-                Revisions: None
+
 
                 """
 
