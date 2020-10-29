@@ -20,18 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9d3d5e-98a8-4d1e-a61d-42b04507975d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PredictionArchivedBadData/BadData_2020-10-30_010420/phising_080020_120.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PredictionArchivedBadData/BadData_2020-10-30_010420/phising_08012020_120.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTransform_Training/DataTransformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTransform_Training/DataTransformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTransformation_Prediction/DataTransformationPrediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTransformation_Prediction/DataTransformationPrediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTypeValidation_Insertion_Prediction/DataTypeValidationPrediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypeValidation_Insertion_Prediction/DataTypeValidationPrediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTypeValidation_Insertion_Training/DataTypeValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypeValidation_Insertion_Training/DataTypeValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prediction_Raw_Data_Validation/predictionDataValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Raw_Data_Validation/predictionDataValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Raw_data_validation/rawValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Raw_data_validation/rawValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_model_finder/tuner.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_model_finder/tuner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_ingestion/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_ingestion/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_ingestion/data_loader_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_ingestion/data_loader_prediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_operations/file_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_operations/file_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Database/Prediction.db" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Database/Prediction.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DataBaseConnectionLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DataBaseConnectionLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DbInsertLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DbInsertLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DbTableCreateLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DbTableCreateLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/ExportToCsv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/ExportToCsv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/GeneralLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/GeneralLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/Prediction_Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/Prediction_Log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/columnValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/columnValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/dataTransformLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/dataTransformLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/missingValuesInColumn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/missingValuesInColumn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/nameValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/nameValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/valuesfromSchemaValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/valuesfromSchemaValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_monitoringdashboard.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_monitoringdashboard.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +68,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project Base\GITHUB\phising classifier git\Phising-Detector" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -141,38 +153,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1600494065248">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603969795279">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600494065248" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1600494065248">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1603969795279" />
+    <state width="1345" height="227" key="GridCell.Tab.0.bottom" timestamp="1603999218917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600494065248" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1600494065248">
+    <state width="1345" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603999218917" />
+    <state width="1345" height="227" key="GridCell.Tab.0.center" timestamp="1603999218917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600494065248" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1600494065248">
+    <state width="1345" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1603999218917" />
+    <state width="1345" height="227" key="GridCell.Tab.0.left" timestamp="1603999218917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600494065248" />
-    <state width="1328" height="224" key="GridCell.Tab.1.bottom" timestamp="1600403984627">
+    <state width="1345" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1603999218917" />
+    <state width="1345" height="227" key="GridCell.Tab.0.right" timestamp="1603999218917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1328" height="224" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600403984627" />
-    <state width="1328" height="224" key="GridCell.Tab.1.center" timestamp="1600403984627">
+    <state width="1345" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1603999218917" />
+    <state width="1345" height="227" key="GridCell.Tab.1.bottom" timestamp="1603999218917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1328" height="224" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1600403984627" />
-    <state width="1328" height="224" key="GridCell.Tab.1.left" timestamp="1600403984627">
+    <state width="1345" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603999218917" />
+    <state width="1345" height="227" key="GridCell.Tab.1.center" timestamp="1603999218917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1328" height="224" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1600403984627" />
-    <state width="1328" height="224" key="GridCell.Tab.1.right" timestamp="1600403984627">
+    <state width="1345" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1603999218917" />
+    <state width="1345" height="227" key="GridCell.Tab.1.left" timestamp="1603999218917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1328" height="224" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1600403984627" />
+    <state width="1345" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1603999218917" />
+    <state width="1345" height="227" key="GridCell.Tab.1.right" timestamp="1603999218917">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1603999218917" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1600371457555">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
