@@ -2,6 +2,7 @@ from sklearn.svm import SVC
 from sklearn.model_selection import GridSearchCV
 from xgboost import XGBClassifier
 from sklearn.metrics  import roc_auc_score,accuracy_score
+import matplotlib.pyplot as plt
 
 class Model_Finder:
     """
@@ -110,7 +111,7 @@ class Model_Finder:
             raise Exception()
 
 
-    def get_best_model(self,train_x,train_y,test_x,test_y):
+    def get_best_model(self,train_x,train_y,test_x,test_y,svm_l,xgboost_l):
         """
                                                 Method Name: get_best_model
                                                 Description: Find out the Model which has the best AUC score.
@@ -146,6 +147,8 @@ class Model_Finder:
                 self.logger_object.log(self.file_object, 'AUC for SVM:' + str(self.svm_score))
 
             #comparing the two models
+            svm_l.append(self.svm_score)
+            xgboost_l.append(self.xgboost_score)
             if(self.svm_score <  self.xgboost_score):
                 return 'XGBoost',self.xgboost
             else:

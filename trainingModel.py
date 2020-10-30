@@ -13,6 +13,7 @@ from data_preprocessing import clustering
 from best_model_finder import tuner
 from file_operations import file_methods
 from application_logging import logger
+import pandas as pd
 
 #Creating the common Logging object
 
@@ -77,7 +78,8 @@ class trainModel:
             list_of_clusters=X['Cluster'].unique()
 
             """parsing all the clusters and looking for the best ML algorithm to fit on individual cluster"""
-
+            xgboost_l = []
+            svm_l = []
             for i in list_of_clusters:
                 cluster_data=X[X['Cluster']==i] # filter the data for one cluster
 
@@ -91,7 +93,8 @@ class trainModel:
                 model_finder=tuner.Model_Finder(self.file_object,self.log_writer) # object initialization
 
                 #getting the best model for each of the clusters
-                best_model_name,best_model=model_finder.get_best_model(x_train,y_train,x_test,y_test)
+
+                best_model_name,best_model=model_finder.get_best_model(x_train,y_train,x_test,y_test,svm_l,xgboost_l)
 
                 #saving the best model to the directory.
                 file_op = file_methods.File_Operation(self.file_object,self.log_writer)
@@ -100,6 +103,11 @@ class trainModel:
             # logging the successful Training
             self.log_writer.log(self.file_object, 'Successful End of Training')
             self.file_object.close()
+
+            # Saving the model vs cluster img
+            accdf = pd.DataFrame({'SVM': svm_l, 'XGBoost': xgboost_l})
+            accdf.to_csv('accdf.csv')
+
 
         except Exception:
             # logging the unsuccessful Training
