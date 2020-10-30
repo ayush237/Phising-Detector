@@ -230,7 +230,7 @@ If interested Kindly help me implementing this feature !
 
 ![](./img/gunicorn.png)     ![](./img/scikitlearn.png) 
 
-![](./img/bootstrap2.jpg)   ![](./img/heroku.png)
+![](./img/heroku.png)  ![](./img/bootstrap4.jpg)
 
 
 
