@@ -20,8 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9d3d5e-98a8-4d1e-a61d-42b04507975d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PredictionArchivedBadData/BadData_2020-10-30_053124/phising_080020_120.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PredictionArchivedBadData/BadData_2020-10-30_053124/phising_08012020_120.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Database/Prediction.db" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Database/Prediction.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DataBaseConnectionLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DataBaseConnectionLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DbInsertLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DbInsertLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DbTableCreateLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DbTableCreateLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/ExportToCsv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/ExportToCsv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/GeneralLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/GeneralLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/Prediction_Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/Prediction_Log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/columnValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/columnValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/dataTransformLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/dataTransformLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/missingValuesInColumn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/missingValuesInColumn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/nameValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/nameValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/valuesfromSchemaValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/valuesfromSchemaValidationLog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,22 +159,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1604002178866" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1604002211453">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1604019316342">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604002211453" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1604002211453">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604019316342" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1604019316341">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604002211453" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1604002211453">
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604019316341" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1604019316341">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604002211453" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1604002211453">
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604019316341" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1604019316342">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604002211453" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604019316342" />
     <state width="1345" height="227" key="GridCell.Tab.1.bottom" timestamp="1604002211448">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -182,10 +195,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1600371457555" />
-    <state x="492" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603903075049">
+    <state x="492" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604012946064">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="492" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1603903075049" />
+    <state x="492" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1604012946064" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

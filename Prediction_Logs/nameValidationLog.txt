@@ -46,3 +46,6 @@
 2020-10-30/00:59:51		Invalid File Name!! File moved to Bad Raw Folder :: phising_080020_120.csv
 2020-10-30/00:59:51		Invalid File Name!! File moved to Bad Raw Folder :: phising_08012020_120.csv
 2020-10-30/00:59:51		Valid File name!! File moved to GoodRaw Folder :: phising_08012020_120000.csv
+2020-10-30/05:26:19		Invalid File Name!! File moved to Bad Raw Folder :: phising_080020_120.csv
+2020-10-30/05:26:19		Invalid File Name!! File moved to Bad Raw Folder :: phising_08012020_120.csv
+2020-10-30/05:26:19		Valid File name!! File moved to GoodRaw Folder :: phising_08012020_120000.csv
