@@ -112,6 +112,8 @@ Following are the steps to install the project in a **Windows system** :
  1. Create a virtual environment 
  
  >  **using anaconda distribution** : `conda create -n name-of-your-environment`
+ 
+ 
  >  **using pip** : `py -m venv env`
 
  2. Install the packages : 
@@ -130,6 +132,110 @@ Following are the steps to install the project in a **MacOS/Linux system** :
 
 
 **Note** : I don't specifically know about this issue related to matplotlib, but if you face something like that, kindly check it here : ![https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project](https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project)
+
+
+## Running the project :
+
+run the main.py file to start the Flask application on your localhost
+
+> `python main.py`
+
+
+## Model Selection : 
+
+The project is dealt with both supervised and unsupervised approaches.
+First of all, i have applied **Kmeans Clustering** on the data and divided the data into clusters and then i have selected a suitable model for each particular cluster between **XGBoost** and **Support Vector Machine** classifier. 
+
+### Clustering the data : 
+
+On applying the K-means Clustering Algorithm to the data, I found out that there are 4 no. of Clusters best suitable for the data i used. 
+
+Following is the Elbow plot of the Data : 
+
+![Elbow Plot](./preprocessing_data/K-Means_Elbow.PNG)
+
+So, 4 turns out to be the most suitable no. of clusters. 
+
+
+
+### Predictive model Selection : 
+
+On applying XGBoost and SVM on all clusters , it turns out that **XGBooot** is the most accurate model to use for each of the 4 clusters. 
+
+
+### Accuracy :
+
+After hyperparameter tuning, the final accuracy of all the models came ou to be **97.4 %** , which is quite satisfactory
+
+
+## Deployment to Heroku
+
+To make the project available to the end-users, i have deployed the project to Heroku cloud service provider. Below I discuss the steps to deploy the project on heroku cloud.
+
+## Heroku account and CLI setup :
+
+1. Go to heroku.com and create an account if you don't have one
+2. Download  Heroku CLI from [here](https://devcenter.heroku.com/articles/heroku-cli)
+3. Install the CLI on your system
+
+## Deployment : 
+
+1. Add a file called ‘gitignore’ inside the project folder. This folder contains the list of the files which we don’t want to include in the git repository. 
+2. Add a file called ‘Procfile’ inside the project folder. This folder contains the command to run the flask application once deployed on the server, enter this code in procfile :
+
+> `web: gunicorn main:app`
+
+3. Open a command prompt window and navigate to your project folder. Enter the command ‘pip freeze > requirements.txt’. This command generates the ‘requirements.txt’ file.
+
+4. Open a command prompt window and navigate to your project folder . Enter the following command : 
+
+> `heroku login`
+
+It should return an output like this : 
+
+![herokustep1](./img/herokustep1.png)
+
+press any key to continue.
+
+5. After logging in to Heroku, enter the command `heroku create` to create a heroku app. It will give you the URL of your Heroku app after successful creation.
+
+6. Before deploying the code to the Heroku cloud, we need to commit the changes to the local git repository.
+
+7. Type the command `git init` to initialize a local git repository as shown below:
+
+8. Enter the command `git status` to see the uncommitted changes
+
+9. Enter the command `git add .` to add the uncommitted changes to the local repository.
+
+10. Enter the command `git commit -am "updated project"` to commit the changes to the local repository.
+
+11. Enter the command `git push heroku master` to push the code to the heroku cloud.
+
+12. After deployment, heroku gives you the URL to hit the web API.
+
+13. Once your application is deployed successfully, enter the command `heroku logs --tail` to see the logs.
+
+
+
+## Feature Request :
+
+Currently, the project takes an input of csv file/files and outputs a prediction.csv file. But i would like to add a feature in which user can directly enter a url and check it instead of entering the features. This would require the project to collect all the features by itself from the url string entered.
+I am working on this feature and have collected about 10 features , still some more remain
+
+If interested Kindly help me implementing this feature !
+
+## Tech Stack Used : 
+
+![](./img/python.jpg)   ![](./img/flask.png)    ![](./img/download.jpg)
+
+![](./img/gunicorn.png)     ![](./img/scikitlearn.png) 
+
+![](./img/bootstrap2.jpg)   ![](./img/heroku.png)
+
+
+
+
+
 
 
 
