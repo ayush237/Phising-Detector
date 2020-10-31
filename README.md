@@ -232,6 +232,16 @@ If interested Kindly help me implementing this feature !
 
 ![](./img/heroku.png)  ![](./img/bootstrap4.jpg)
 
+## Credits :
+> [https://www.researchgate.net/publication/328541785_Phishing_Website_Detection_using_Machine_Learning_Algorithms](https://www.researchgate.net/publication/328541785_Phishing_Website_Detection_using_Machine_Learning_Algorithms)
+
+> [https://www.youtube.com/channel/UCb1GdqUqArXMQ3RS86lqqOw](https://www.youtube.com/channel/UCb1GdqUqArXMQ3RS86lqqOw)
+
+> [https://link.springer.com/chapter/10.1007%2F978-981-15-5341-7_42](https://link.springer.com/chapter/10.1007%2F978-981-15-5341-7_42)
+
+> [https://towardsdatascience.com/phishing-domain-detection-with-ml-5be9c99293e5](https://towardsdatascience.com/phishing-domain-detection-with-ml-5be9c99293e5)
+
+
 
 
 
