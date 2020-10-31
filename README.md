@@ -1,8 +1,8 @@
 # Phishing-Website-Detector
 
 ## Contents 
-- Overview
-- Demo
+- [Overview](##Overview)
+- [Demo](##Demo)
 - Project Motivation
 - Data
 - Project Structure
