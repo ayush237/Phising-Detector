@@ -143,8 +143,8 @@ run the main.py file to start the Flask application on your localhost
 
 ## Model Selection : 
 
-The project is dealt with both supervised and unsupervised approaches.
-First of all, i have applied **Kmeans Clustering** on the data and divided the data into clusters and then i have selected a suitable model for each particular cluster between **XGBoost** and **Support Vector Machine** classifier. 
+Though it is clearly a classification problem , this project is dealt with both supervised and unsupervised approaches.
+First of all, I have applied **Kmeans Clustering** on the data and divided the data into clusters and then i have selected a suitable model for each particular cluster between **XGBoost** and **Support Vector Machine** classifier. 
 
 ### Clustering the data : 
 
