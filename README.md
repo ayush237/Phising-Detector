@@ -1,7 +1,7 @@
 # Phishing-Website-Detector
 
 ## Contents 
-- [Overview](##Overview)
+- [Overview](https://github.com/ayush237/Phising-Detector/blob/master/README.md#overview)
 - [Demo](##Demo)
 - Project Motivation
 - Data
