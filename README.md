@@ -99,11 +99,11 @@ The project work flow is divided into 3 main parts :
 
 The data set used for training has **30 features** and **11056 rows.**
 
-check the data ![here](https://github.com/ayush237/Phising-Detector/blob/master/phising.csv)
+check the data [here](https://github.com/ayush237/Phising-Detector/blob/master/phising.csv)
 
 The data entry for each fature has been incoded between 3 values **[-1,0,1]** as per their values
 
-Also, the data is first validated using the schema file , check ![here](https://github.com/ayush237/Phising-Detector/blob/master/schema_training.json) for the features list of data along with their decided structure/naming-convenction 
+Also, the data is first validated using the schema file , check [here](https://github.com/ayush237/Phising-Detector/blob/master/schema_training.json) for the features list of data along with their decided structure/naming-convenction 
 
 ## Installation : 
 
@@ -131,7 +131,7 @@ Following are the steps to install the project in a **MacOS/Linux system** :
 > `python -m pip install -r requirements.txt`
 
 
-**Note** : I don't specifically know about this issue related to matplotlib, but if you face something like that, kindly check it here : ![https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project](https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project)
+**Note** : I don't specifically know about this issue related to matplotlib, but if you face something like that, kindly check it here : [https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project](https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project)
 
 
 ## Running the project :
