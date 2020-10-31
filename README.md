@@ -2,15 +2,15 @@
 
 ## Contents 
 - [Overview](https://github.com/ayush237/Phising-Detector/blob/master/README.md#overview)
-- [Demo](##Demo)
-- Project Motivation
-- Data
-- Project Structure
-- Installation
-- Running Project
-- Model Selection
-- Model Accuracy and Project reports
-- Project Deployment
+- [Demo](https://github.com/ayush237/Phising-Detector/blob/master/README.md#demo)
+- [Project Motivation and Aim]()
+- [Data]()
+- [Project Structure](https://github.com/ayush237/Phising-Detector/blob/master/README.md#project-structure)
+- [Installation](https://github.com/ayush237/Phising-Detector/blob/master/README.md#installation-)
+- [Running Project](https://github.com/ayush237/Phising-Detector/blob/master/README.md#running-the-project-)
+- [Model Selection](https://github.com/ayush237/Phising-Detector/blob/master/README.md#model-selection-)
+- [Model Accuracy and Project reports]()
+- [Project Deployment](https://github.com/ayush237/Phising-Detector/blob/master/README.md#deployment-to-heroku)
 - Feature Request
 - Tech Stack Used 
 - About
