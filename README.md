@@ -3,7 +3,7 @@
 ## Contents 
 - [Overview](https://github.com/ayush237/Phising-Detector/blob/master/README.md#overview)
 - [Demo](https://github.com/ayush237/Phising-Detector/blob/master/README.md#demo)
-- [Project Motivation and Aim]()
+- [Project Motivation and Aim](https://github.com/ayush237/Phising-Detector/blob/master/README.md#motivation-and-aim)
 - [Data]()
 - [Project Structure](https://github.com/ayush237/Phising-Detector/blob/master/README.md#project-structure)
 - [Installation](https://github.com/ayush237/Phising-Detector/blob/master/README.md#installation-)
@@ -11,10 +11,9 @@
 - [Model Selection](https://github.com/ayush237/Phising-Detector/blob/master/README.md#model-selection-)
 - [Model Accuracy and Project reports]()
 - [Project Deployment](https://github.com/ayush237/Phising-Detector/blob/master/README.md#deployment-to-heroku)
-- Feature Request
-- Tech Stack Used 
-- About
-- Credits
+- [Feature Request](https://github.com/ayush237/Phising-Detector/blob/master/README.md#feature-request-)
+- [Tech Stack Used](https://github.com/ayush237/Phising-Detector/blob/master/README.md#tech-stack-used-) 
+- [Credits](https://github.com/ayush237/Phising-Detector/blob/master/README.md#credits-)
   
 ## Overview 
 As over time, we have started to depend more on online services, cyber threats have been increasing with a faster rate. There are various websites which involves the usage of sensitive data of users like Online Banking, E-commerce or Social Networking, these websites are used everyday by millions of users and this opens a door for a **Phishing attack**.
