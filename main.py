@@ -5,9 +5,11 @@ from flask_cors import CORS, cross_origin
 from prediction_Validation_Insertion import pred_validation
 from trainingModel import trainModel
 from training_Validation_Insertion import train_validation
+from check import URLBreakdown
 from file_operations import file_methods
 from application_logging import logger
 import numpy as np
+import pickle
 
 #import flask_monitoringdashboard as dashboard
 from predictFromModel import prediction
@@ -63,6 +65,22 @@ def predictRouteClient():
         return Response("Error Occurred! %s" %KeyError)
     except Exception as e:
         return Response("Error Occurred! %s" %e)
+
+
+@app.route("/predict2", methods=['POST'])
+@cross_origin()
+
+def SingleURL():
+    if request.form is not None:
+        list =[]
+        list = URLBreakdown(request.form['exampleInputEmail1'])
+        mclassifier = pickle.load(open("pima.pickle.dat", "rb"))
+
+        prediction = mclassifier.predict(list)
+
+        return render_template('result.html',prediction)
+
+
 
 
 

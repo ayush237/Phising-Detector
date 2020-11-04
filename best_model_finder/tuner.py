@@ -111,7 +111,7 @@ class Model_Finder:
             raise Exception()
 
 
-    def get_best_model(self,train_x,train_y,test_x,test_y,svm_l,xgboost_l):
+    def get_best_model(self,train_x,train_y,test_x,test_y):
         """
                                                 Method Name: get_best_model
                                                 Description: Find out the Model which has the best AUC score.
@@ -147,8 +147,8 @@ class Model_Finder:
                 self.logger_object.log(self.file_object, 'AUC for SVM:' + str(self.svm_score))
 
             #comparing the two models
-            svm_l.append(self.svm_score)
-            xgboost_l.append(self.xgboost_score)
+         #   svm_l.append(self.svm_score)
+          #  xgboost_l.append(self.xgboost_score)
             if(self.svm_score <  self.xgboost_score):
                 return 'XGBoost',self.xgboost
             else:

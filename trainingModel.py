@@ -78,8 +78,7 @@ class trainModel:
             list_of_clusters=X['Cluster'].unique()
 
             """parsing all the clusters and looking for the best ML algorithm to fit on individual cluster"""
-            xgboost_l = []
-            svm_l = []
+
             for i in list_of_clusters:
                 cluster_data=X[X['Cluster']==i] # filter the data for one cluster
 
@@ -94,7 +93,7 @@ class trainModel:
 
                 #getting the best model for each of the clusters
 
-                best_model_name,best_model=model_finder.get_best_model(x_train,y_train,x_test,y_test,svm_l,xgboost_l)
+                best_model_name,best_model=model_finder.get_best_model(x_train,y_train,x_test,y_test)
 
                 #saving the best model to the directory.
                 file_op = file_methods.File_Operation(self.file_object,self.log_writer)
@@ -105,8 +104,8 @@ class trainModel:
             self.file_object.close()
 
             # Saving the model vs cluster img
-            accdf = pd.DataFrame({'SVM': svm_l, 'XGBoost': xgboost_l})
-            accdf.to_csv('accdf.csv')
+           # accdf = pd.DataFrame({'SVM': svm_l, 'XGBoost': xgboost_l})
+           # accdf.to_csv('accdf.csv')
 
 
         except Exception:
